@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Ubicación</h1>
+
+        <form id="formUbicacion">
+            <label for="nombre">Nombre Ubicación</label>
+            <input type="text" id="nombre" placeholder="Sagrada Familia" required>
+
+            <label for="latitud">Latitud</label>
+            <input type="text" id="latitud" placeholder="41.4036" required>
+
+            <label for="longitud">Longitud</label>
+            <input type="text" id="longitud" placeholder="2.1744" required>
+
+            <button type="submit">Abrir Ubicación</button>
+            <p id="mensaje"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
